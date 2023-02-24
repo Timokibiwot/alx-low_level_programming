@@ -59,7 +59,7 @@ void more_numbers(void);
 void print_line(int n);
 
 /**
- * print_diagonal - print character "\" n times
+ * print_diagonal - print character \ n times
  * @n: number of characters to draw
  */
 
@@ -80,7 +80,7 @@ void print_square(int size);
 void print_triangle(int size);
 
 /**
- * print_number = print an integer, without using long, arrays, or pointers
+ * print_number - print an integer, without using long, arrays, or pointers
  * @n: number to be printed
  */
 
