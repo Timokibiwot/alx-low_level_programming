@@ -18,4 +18,13 @@ int _putchar(char c);
 
 char *_memset(char *s, char b, unsigned int n);
 
+/**
+ * _memcpy - copy n bytes from memory area src to memory area dest
+ * @dest: destination
+ * @src: source
+ * @n: number of bytes
+ * Return: pointer to dest
+ */
+char *_memcpy(char *dest, char *src, unsigned int n);
+
 #endif
