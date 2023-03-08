@@ -27,4 +27,13 @@ char *_memset(char *s, char b, unsigned int n);
  */
 char *_memcpy(char *dest, char *src, unsigned int n);
 
+/**
+ * _strchr - locate 1st occurrence of char in string and returns pointer to it
+ * @s: string to search
+ * @c: characer to find
+ * Return: pointer to the character found in string
+ */
+
+char *_strchr(char *s, char c)
+
 #endif
