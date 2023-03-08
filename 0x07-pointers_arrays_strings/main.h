@@ -34,6 +34,6 @@ char *_memcpy(char *dest, char *src, unsigned int n);
  * Return: pointer to the character found in string
  */
 
-char *_strchr(char *s, char c)
+char *_strchr(char *s, char c);
 
 #endif
