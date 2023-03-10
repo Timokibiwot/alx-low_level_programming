@@ -63,4 +63,21 @@ int _sqrt_recursion(int n);
 
 int is_prime_number(int n);
 
+/**
+ * is_palindrome - check if string is a palindrome
+ * @s: string to check
+ * Return: 1 if palindrome, 0 if not
+ */
+
+int is_palindrome(char *s);
+
+/**
+ * wildcmp - compares two strings to see if they're identical
+ * @s1: holds the first string
+ * @s2: holds the second string
+ * Return: 1 if the string is identical, 0 if not identical
+ */
+
+int wildcmp(char *s1, char *s2);
+
 #endif
